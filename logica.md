@@ -1,4 +1,4 @@
-# Documento de Lógica: Proyecto "RegalaBox" (Prototipo Scratch)
+# Documento de Lógica: Proyecto "Regalos-E" (Prototipo Scratch)
 
 ## 1. Introducción
 Este documento detalla la lógica de funcionamiento del proyecto "Regalos-E", una plataforma interactiva de personalización de regalos. El propósito de esta versión en Scratch es servir como **Prueba de Concepto (PoC)** para definir la experiencia de usuario antes de su implementación en una página web.
