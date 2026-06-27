@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>RegalaBox - Prototipo Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Crea tu Regalo</h1>
+    
+    <h3>Catálogo de Productos</h3>
+    <div id="catalogo" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="gato">🐱 Gato</div>
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="globo">🎈 Globo</div>
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="ensalada">🥗 Ensalada</div>
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="balon">🏀 Balón</div>
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="figura">🦸 Figura</div>
+        <div class="producto" draggable="true" ondragstart="drag(event)" id="perrito">🐶 Perrito</div>
+    </div>
+
+    <h3>Caja de Regalos</h3>
+    <div id="caja" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    
+    <div style="display: flex; gap: 10px;">
+        <button onclick="finalizarRegalo()">Finalizar Regalo</button>
+        <button class="btn-reiniciar" onclick="reiniciarPedido()">Reiniciar Pedido</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
